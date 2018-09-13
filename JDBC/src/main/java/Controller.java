@@ -81,22 +81,5 @@ public class Controller {
 
     }
 
-
 }
-
-/*
-    private void testQuery() {
-        HashMap<String, String> map = new HashMap<String, String>();
-        String query = "SELECT number FROM Nsarooms;";
-        try (PreparedStatement stmt = c.prepareStatement(query)) {
-            ResultSet r = stmt.executeQuery();
-
-            while (r.next()) {
-                map.put(r.getString("username"), r.getString("name"));
-            }
-        } catch (SQLException e) {
-
-        }
-    }
-*/
 
